@@ -1,0 +1,13 @@
+GET http://127.0.0.1/router
+
+###
+POST http://127.0.0.1/router/create
+Content-Type: application/json
+
+{
+    "fullName": "Dhruv",
+    "email": "1234@gmail.com",
+    "contactNo": "0123456789",
+    "dob":"09/12/1989",
+    "department":"IT"
+}
