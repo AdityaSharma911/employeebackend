@@ -3,7 +3,7 @@ const app = express();
 const mongoose=require('mongoose');
 require('dotenv').config();
 const router = require('./router');
-const cors = require('cors');
+//const cors = require('cors');
 
 const connectDB = async () => {
     try {
@@ -15,7 +15,7 @@ const connectDB = async () => {
         console.error(err)
     }
 }
-app.use(cors({ origin: 'http://localhost:3030' }));
+//app.use(cors({ origin: 'http://localhost:3030' }));
 connectDB();
 
 app.use(express.json())
