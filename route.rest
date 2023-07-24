@@ -1,13 +1,13 @@
 GET http://127.0.0.1/router
 
 ###
-POST http://127.0.0.1/router/create
+POST https://empbackend-ilha.onrender.com/router/create
 Content-Type: application/json
 
 {
-    "fullName": "Dhruv",
-    "email": "1234@gmail.com",
-    "contactNo": "0123456789",
-    "dob":"09/12/1989",
+    "fullName": "Pranesha",
+    "email": "1yy34@gmail.com",
+    "contactNo": "01223456789",
+    "dob":"09/12/2001",
     "department":"IT"
 }
