@@ -3,7 +3,7 @@ const app = express();
 const mongoose=require('mongoose');
 require('dotenv').config();
 const router = require('./router');
-const cors = require('cors');
+//const cors = require('cors');
 
 const connectDB = async () => {
     try {
